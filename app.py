@@ -175,7 +175,8 @@ def update_person_name(name):
 
             db.session.commit()
             return person_schema.jsonify(obj)
-        except Exception:
+        except Exception as e:
+            print(e)
             objs = Person.query.all()
             objs = persons_schema.dump(objs)
             return jsonify(objs)
