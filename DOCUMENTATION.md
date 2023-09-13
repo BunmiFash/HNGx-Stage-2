@@ -76,7 +76,7 @@ Response
 - Example:
 Request
 ```
-$ curl -X POST -d '{"name": "Austin Manuel"}' -H 'Content-Type: application/json' http://127.0.0.1:5000/api
+$ curl -X POST -d '{"name": "Austin Manuel"}' -H 'Content-Type: application/json' http://bunmifash.pythonanywhere.com/api
 ```
 Response
 ```
@@ -89,7 +89,7 @@ Response
 - Updates all the attributes of the person object whose id was passed to the request and returns the updated object.
 - Sample request
 ```
-$ curl -X PUT -d '{"name": "Maxwell Zion"}' -H 'Content-Type: application/json' http://127.0.0.1:5000/api/14
+$ curl -X PUT -d '{"name": "Maxwell Zion"}' -H 'Content-Type: application/json' http://bunmifash.pythonanywhere.com/api/14
 ```
 Response
 ```
@@ -102,7 +102,7 @@ Response
 - Updates all the attributes of the person object whose name was passed to the request and returns the updated object.
 - Sample request
 ```
-$ curl -X PUT -d '{"name": "Abiola Samuel"}' -H 'Content-Type: application/json ' http://127.0.0.1:5000/api/Arinze%20olu
+$ curl -X PUT -d '{"name": "Abiola Samuel"}' -H 'Content-Type: application/json ' http://bunmifash.pythonanywhere.com/api/Arinze%20olu
 ```
 Response
 ```
@@ -115,7 +115,7 @@ Response
 - Updates the selected attributes of the person object whose id was passed to the request and returns the updated object.
 - Sample request
 ```
-$ curl -X PATCH -d '{"name": "Maxwell Zion"}' -H 'Content-Type: application/json' http://127.0.0.1:5000/api/14
+$ curl -X PATCH -d '{"name": "Maxwell Zion"}' -H 'Content-Type: application/json' http://bunmifash.pythonanywhere.com/api/14
 ```
 Response
 ```
@@ -128,7 +128,7 @@ Response
 - Updates the selected attributes of the person object whose name was passed to the request and returns the updated object.
 - Sample request
 ```
-$ curl -X PATCH -d '{"name": "Abiola Samuel"}' -H 'Content-Type: application/json ' http://127.0.0.1:5000/api/Arinze%20olu
+$ curl -X PATCH -d '{"name": "Abiola Samuel"}' -H 'Content-Type: application/json ' http://bunmifash.pythonanywhere.com/api/Arinze%20olu
 ```
 Response
 ```
@@ -141,7 +141,7 @@ Response
 - Removes the person object whose id was passed to the request from the database  and returns the deleted object.
 - Sample request
 ```
-$ curl -X DELETE http://127.0.0.1:5000/api/14
+$ curl -X DELETE http://bunmifash.pythonanywhere.com/api/14
 ```
 Response
 ```
@@ -153,7 +153,7 @@ Response
 A get request shows the object no longer exists in the database.
 
 ```
-curl http://127.0.0.1:5000/api
+curl http://bunmifash.pythonanywhere.com/api
 ```
 ```
 [
@@ -184,7 +184,7 @@ curl http://127.0.0.1:5000/api
 - Removes the person object whose name was passed to the request from the database  and returns the deleted object.
 - Sample request
 ```
-$ curl -X DELETE http://127.0.0.1:5000/api/Shubby10
+$ curl -X DELETE http://bunmifash.pythonanywhere.com/api/Shubby10
 ```
 Response
 ```
@@ -196,7 +196,7 @@ Response
 A get request shows the object no longer exists in the database.
 
 ```
-curl http://127.0.0.1:5000/api
+curl http://bunmifash.pythonanywhere.com/api
 ```
 ```
 [
@@ -218,4 +218,3 @@ curl http://127.0.0.1:5000/api
         }
 ]
 ```
-# cases of absent id or name

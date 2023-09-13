@@ -9,6 +9,15 @@ mysqlclient - To connect to the MySQL database used
 ### Installing dependencies
 The dependencies are present in the requirements.txt file.
 - Ensure a virtual environment is created and activated before installation.
+To create a virtual environment:
+```
+$ python3 -m venv env
+```
+To activate it (linux based):
+```
+$ source env/bin/activate
+```
+Installing the requirements
 ```
 $ pip install -r requirements.txt
 ```
