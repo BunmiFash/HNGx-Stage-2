@@ -32,4 +32,5 @@ The methods allowed by this API are:
 - PUT - To update all fields of an object.
 - PATCH - To partially update an object.
 - DELETE - To remove an object from the database.
+
 The formats for requests and response to each endpoint is explained in the [DOCUMENTATION.md](https://github.com/BunmiFash/HNGx-Stage-2/blob/main/DOCUMENTATION.md) file.
